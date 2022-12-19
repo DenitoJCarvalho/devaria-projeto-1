@@ -19,7 +19,50 @@
   </header>
 
   <main>
-    h2
+    <h2>Para entrar em contato preencha os campos abaixo e clica em enviar</h2>
+    
+    <form action="index.html">
+      <fieldset>
+        <legend>Nome</legend>
+        <input type="text" name="nome" id="nome" maxlength="70" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Email</legend>
+        <input type="email" name="email" id="email" maxlength="150">
+      </fieldset>
+
+      <fieldset>
+        <legend>Comentários</legend>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Sexo</legend>
+        <input type="radio" name="sexo" id="masculino">
+        <input type="radio" name="sexo" id="femenino">
+      </fieldset>
+
+      <fieldset>
+        <legend>Aonde você conheceu a Devaria?</legend>
+        <select name="pergunta">
+          <option value="youtube" selected>Youtube</option>
+          <option value="amigos">Amigos</option>
+          <option value="google">Google</option>
+          <option value="outros">Outros</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <input type="checkbox" name="aceite" id="aceite">
+        <label for="aceite">Aceito receber conteúdos do devaria.</label>
+      </fieldset>
+
+      <fieldset>
+        <input type="submit"  name="enviar" value="Enviar">
+        <input type="reset" name="limpar" value="Limpar">
+      </fieldset>
+    </form>
   </main>
 
   <footer>
