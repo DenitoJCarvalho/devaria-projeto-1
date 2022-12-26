@@ -1,0 +1,20 @@
+
+footer {
+  border-top: 1px solid #F0F5FF;
+  padding: 20px;
+  width: 100%;
+  margin: auto;
+}
+
+footer {
+  text-transform: lowercase;
+  text-align: center;
+}
+
+footer section span:first-child {
+  color: #5e49ff;
+}
+
+footer section span:last-child  {
+  color: #3BD42D;
+}
