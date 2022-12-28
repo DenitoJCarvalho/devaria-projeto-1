@@ -2,20 +2,15 @@ header {
   background: #FFF;
 }
 
-header nav .link-logo {
-  display: block;
-  height: 4rem;
-  padding: 20px 25px;
-  border-bottom: 1px solid #25cbd3;
-}
-
 header nav {
   padding: 20px 25px;
 }
 
 header .link-logo img {
-  width: 8rem;
-  height: 100%;
+  display: block;
+  height: auto;
+  padding: 20px 25px;
+  border-bottom: 1px solid #25cbd3;
 }
 
 header nav ul {
