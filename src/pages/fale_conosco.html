@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="/src/public/css/style.css" type="text/css">
   <link rel="stylesheet" href="/src/public/css/partials/header.css" type="text/css">
   <link rel="stylesheet" href="/src/public/css/partials/footer.css" type="text/css">
+  <link rel="stylesheet" href="/src/public/css/partials/fale_conosco.css" type="text/css">
   
 </head>
 <body>
@@ -27,35 +28,35 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Fale conosco ...</h1>
-    <h2>Para entrar em contato preencha os campos abaixo e clica em enviar</h2>
+  <main class="content-main-form">
+    <h1 class="title">Fale conosco ...</h1>
+    <h2 class="sub-title">Para entrar em contato preencha os campos abaixo e clica em enviar</h2>
     
     <form action="index.html">
-      <fieldset>
+      <fieldset class="content-form">
         <legend>Nome</legend>
-        <input type="text" name="nome" id="nome" maxlength="70" />
+        <input type="text" name="nome" id="nome" class="content-form-input" maxlength="70" />
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form">
         <legend>Email</legend>
-        <input type="email" name="email" id="email" maxlength="150">
+        <input type="email" name="email" id="email" class="content-form-input" maxlength="150">
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form">
         <legend>Comentários</legend>
         <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form">
         <legend>Sexo</legend>
-        <input type="radio" name="sexo" id="masculino">
-        <input type="radio" name="sexo" id="femenino">
+        <input type="radio" name="sexo" id="masculino"><label for="">Masculino</label for="sexo">
+        <input type="radio" name="sexo" id="femenino"><label for="">Feminino</label for="sexo">
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form">
         <legend>Aonde você conheceu a Devaria?</legend>
-        <select name="pergunta">
+        <select name="pergunta" class="content-form-input">
           <option value="youtube" selected>Youtube</option>
           <option value="amigos">Amigos</option>
           <option value="google">Google</option>
@@ -63,12 +64,12 @@
         </select>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form">
         <input type="checkbox" name="aceite" id="aceite">
         <label for="aceite">Aceito receber conteúdos do devaria.</label>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="content-form-button">
         <input type="submit"  name="enviar" value="Enviar">
         <input type="reset" name="limpar" value="Limpar">
       </fieldset>

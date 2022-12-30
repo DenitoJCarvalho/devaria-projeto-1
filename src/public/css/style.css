@@ -56,6 +56,24 @@ blockquote {
   text-align: left;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+fieldset {
+  margin: 16px 0;
+}
+
+:is(input, textarea) {
+  text-indent: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
 @media screen and (min-width: 992px) {
   main .cover-container figure img {
     width: 100%;

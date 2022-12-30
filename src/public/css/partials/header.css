@@ -37,6 +37,17 @@ header nav ul li a:hover {
   text-decoration: underline;
 }
 
+@media screen and (min-width: 1200px){
+  header {
+    height: 72px;
+  }
+
+  header a.link-logo img {
+    width: 8rem;
+    height: 100%;
+  }
+}
+
 @media screen and (min-width: 992px) {
   header {
     position: relative;
@@ -47,4 +58,6 @@ header nav ul li a:hover {
     right: 2%;
     top: 18%;
   }
+
+  
 }
